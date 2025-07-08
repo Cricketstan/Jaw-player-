@@ -45,35 +45,10 @@ const playerInstance = jwplayer("player").setup({
       image: "https://i.ytimg.com/vi/_cMxraX_5RE/maxresdefault.jpg",
       sources: [
         {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.1080p.webm",
-          label: "1080p",
+          file: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          type: "hls",
+          label: "Live Stream",
           default: true
-        },
-        {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.720p.webm",
-          label: "720p"
-        },
-        {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.480p.webm",
-          label: "480p"
-        },
-        {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.360p.webm",
-          label: "360p"
-        },
-        {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.240p.webm",
-          label: "240p"
-        },
-        {
-          file:
-            "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm/Sprite_Fright_-_Open_Movie_by_Blender_Studio.webm.160p.webm",
-          label: "160p"
         }
       ],
       captions: [
